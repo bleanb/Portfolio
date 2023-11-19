@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Kdam+Thmor+Pro&family=Poppins:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Leandro Bellone</h1>
+        </div>
+        <div class="header-right">
+            <ul>
+                <li><a href="#inicio" data-section="menu" data-value="inicio">Inicio</a></li>
+                <li><a href="#servicios" data-section="menu" data-value="servicios">Servicios</a></li>
+                <li><a href="#contactame" data-section="menu" data-value="contactame">Contactame</a></li>
+                <li><a href="#proyectos" data-section="menu" data-value="proyectos">Proyectos</a></li>
+            </ul>
+            <div class="contenedor-idiomas">
+                <h2 class="titulo-flags" data-section="menu" data-value="idiomas">Idiomas</h2>
+                <div class="flags">
+                    <div class="boton-desplazable-flags" id="boton-desplazable-flags">
+                        <i class="indicador-flags"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--                                                      MAIN                                                                             -->
+    <!------------------------------------------------------------------------------------------------------------------------------------------->
+    <main>
+        <!------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--                                                      INICIO                                                                           -->
+        <!------------------------------------------------------------------------------------------------------------------------------------------->
+        <section id="inicio" class="inicio">
+            <div class="inicio-left">
+                <!--TITULO NOMBRE-->
+                <section class="titulo">
+                    <h2>
+                        <span id="letra1">S</span>
+                        <span id="letra2">o</span>
+                        <span id="letra3">y</span>
+                        <span>&nbsp&nbsp</span>
+                        <span>L</span>
+                        <span>e</span>
+                        <span>a</span>
+                        <span>n</span>
+                        <span>&nbsp&nbsp</span>
+                        <span>B</span>
+                        <span>e</span>
+                        <span>l</span>
+                        <span>l</span>
+                        <span>o</span>
+                        <span>n</span>
+                        <span>e</span>
+                    </h2>
+                </section>
+                <!--PARRAFO DESCRIPTIVO-->
+                <p class="parrafo-inicio" data-section="inicio" data-value="parrafo">¡Hola! Soy un apasionado creador web con un toque único. Mi
+                    habilidad para fusionar diseño creativo con tecnología vanguardista da vida a experiencias online
+                    cautivadoras. Desde la programación hasta el diseño visual, mi enfoque versátil se destaca. Siempre
+                    estoy listo para abrazar nuevas tecnologías y desafíos, creando sitios web que no solo cumplen sino
+                    que también inspiran. Descubre cómo puedo llevar tu presencia online al siguiente nivel.
+                </p>
+                <!--CUBOS MOVILES-->
+                <div class="contenedor-tecnologias">
+                    <div class="text" style="--j:0;">
+                        <span style="--i:0">J</span>
+                        <span style="--i:1">H<H5></H5></span>
+                        <span style="--i:2">C</span>
+                        <span style="--i:3">N</span>
+                    </div>
+                    <div class="text" style="--j:1;">
+                        <span style="--i:0">S</span>
+                        <span style="--i:1">T</span>
+                        <span style="--i:2">S</span>
+                        <span style="--i:3">O</span>
+                    </div>
+                    <div class="text" style="--j:2;">
+                        <span style="--i:0">&nbsp;</span>
+                        <span style="--i:1">M</span>
+                        <span style="--i:2">S</span>
+                        <span style="--i:3">D</span>
+                    </div>
+                    <div class="text" style="--j:3;">
+                        <span style="--i:0">&nbsp;</span>
+                        <span style="--i:1">L</span>
+                        <span style="--i:2">&nbsp;</span>
+                        <span style="--i:3">E</span>
+                    </div>
+                    <div class="text" style="--j:4;">
+                        <span class="js-icon" style="--i:0"><ion-icon name="logo-javascript"></ion-icon></span>
+                        <span class="html-icon" style="--i:1"><ion-icon name="logo-html5"></ion-icon></span>
+                        <span class="css-icon" style="--i:2"><ion-icon name="logo-css3"></ion-icon></span>
+                        <span class="node-icon" style="--i:3"><ion-icon name="logo-nodejs"></ion-icon></span>
+                    </div>
+                </div>
+            </div>
+            <!--FOTO DE PERFIL-->
+            <div class="perfil">
+                <img src="./assets/img/perfil/perfil.png" alt="foto de perfil">
+            </div>
+        </section>
+        <!------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--                                                      SERVICIOS                                                                        -->
+        <!------------------------------------------------------------------------------------------------------------------------------------------->
+        <section id="servicios" class="servicios">
+            <div class="contenedor-card-servicios">
+                <div class="card-servicios">
+                    <i class="oferta-servicios"><span></span></i>
+                    <div class="circle-card" id="circleCard1">
+                        <h2><ion-icon class="dev-icon" name="code-slash-outline"></ion-icon></h2>
+                    </div>
+                    <i class="titulo-cards" data-section="desarrolloWeb" data-value="titulo">Desarrollo Web</i>
+                    <div class="contentenido-card">
+                        <p data-section="desarrolloWeb" data-value="contenido">Desde el diseño intuitivo hasta la funcionalidad impecable, mi enfoque en el
+                            desarrollo web eleva tu presencia online para generar impacto y resultados tangibles.</p>
+                        <a href="#" data-section="desarrolloWeb" data-value="boton">MÁS INFO</a>
+                    </div>
+                </div>
+                <div class="card-servicios">
+                    <i class="oferta-servicios"><span></span></i>
+                    <div class="circle-card" id="circleCard2">
+                        <h2><ion-icon class="video-edit-icon" name="desktop-outline"></ion-icon></h2>
+                    </div>
+                    <i class="titulo-cards" data-section="edicionVideo" data-value="titulo">Edicion de Video</i>
+                    <div class="contentenido-card">
+                        <p data-section="edicionVideo" data-value="contenido">Especializado en videos cortos para redes sociales, cada clip se convierte en una obra
+                            maestra que cautiva a tu audiencia. Desde el ritmo dinámico hasta la narrativa envolvente,
+                            cada detalle se ajusta para maximizar el impacto.</p>
+                        <a href="#" data-section="edicionVideo" data-value="boton">MÁS INFO</a>
+                    </div>
+                </div>
+                <div class="card-servicios">
+                    <i class="oferta-servicios"><span></span></i>
+                    <div class="circle-card" id="circleCard3">
+                        <h2><ion-icon name="rocket-outline"></ion-icon></h2>
+                    </div>
+                    <i class="titulo-cards" data-section="boosterRedes" data-value="titulo">Booster Redes</i>
+                    <div class="contentenido-card">
+                        <p data-section="boosterRedes" data-value="contenido">Suma una pagina web y la edicion de videos, esta fusión dinámica es la fórmula para un
+                            crecimiento explosivo en las redes sociales. Desde
+                            atraer visitantes con un diseño envolvente hasta retenerlos con videos irresistibles.</p>
+                        <a href="#" data-section="boosterRedes" data-value="boton">MÁS INFO</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--                                                      CONTACTAME                                                                          -->
+        <!------------------------------------------------------------------------------------------------------------------------------------------->
+        <section id="contactame" class="contactame">
+            <!--FORMULARIO-->
+            <div class="contenedor-form">
+                <form id="form-contacto" action="https://formspree.io/f/xnqkybqv" method="POST">
+                    <h2 data-section="contactame" data-value="titulo">Contacto</h2>
+                    <input required id="inputContacto" class="input" type="text" placeholder="Tumail@gmail.com">
+                    <textarea required class="input mensaje" id="input-form2" name="mensaje" maxlength="250" rows="4"
+                        cols="50" placeholder="Escribe tu mensaje..."></textarea>
+                    <div class="contador-caracteres">250</div>
+                    <button class="botton-enviar-form" id="botonEnviar" type="button" data-section="contactame" data-value="BotonEnviar">Enviar</button>
+                </form>
+            </div>
+            <div class="contedor-clock">
+                <p id="parrafo-boton-desplazable" data-section="contactame" data-value="parrafoBotonDesplazable">Me contacto en 5 min, tomame el tiempo 😉 -></p>
+                <!--BOTON DESPLAZABLE-->
+                <audio id="audio-boto-slide" src="./assets/sound/slide.mp3" autostart="false"></audio>
+                <div class="contenedor-icono-volumen" id="contenedor-icono-volumen">
+                    <div><ion-icon id="volumen-on" class="volumen-on" name="volume-high-outline"></ion-icon></div>
+                    <div><ion-icon id="volumen-off" class="volumen-off" name="volume-mute-outline"></ion-icon></div>
+                </div>
+                <div class="boton-desplazable" id="boton-desplazable">
+                    <i class="indicador"></i>
+                </div>
+                <!--RELOJ-->
+                <audio id="audio-clock" src="./assets/sound/clock.mp3" autostart="false"></audio>
+                <div class="clock" id="reloj">
+                    <div class="hour">
+                        <div class="hr" id="hr"></div>
+                    </div>
+                    <div class="min">
+                        <div class="mn" id="mn"></div>
+                    </div>
+                    <div class="sec">
+                        <div class="sc" id="sc"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--                                                      PROYECTOS                                                                        -->
+        <!------------------------------------------------------------------------------------------------------------------------------------------->
+        <section id="proyectos" class="proyectos">
+            <div class="contenedor-luces">
+                <div class="light">
+                    <div class="wire0"></div>
+                    <div class="bulb">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="light">
+                    <div class="wire1"></div>
+                    <div class="bulb">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="light">
+                    <div class="wire2"></div>
+                    <div class="bulb">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="light">
+                    <div class="wire3"></div>
+                    <div class="bulb">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="light">
+                    <div class="wire4"></div>
+                    <div class="bulb">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="switch">
+                <div class="boton-luces-proyecto" id="boton-luces-proyecto"></div>
+            </div>
+            <audio id="audio-boton-luces" src="./assets/sound/click.mp3" autostart="false"></audio>
+        </section>
+        <!------------------------------------------------------------------------------------------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--MENU TOGGLE-->
+        <div class="menu">
+            <div class="toggle"><ion-icon name="share-social"></ion-icon></div>
+            <li style="--i:0;--xlr:#1877f2;">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li style="--i:1;--xlr:#25d366;">
+                <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            </li>
+            <li style="--i:2;--xlr:#1da1f2;">
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+            <li style="--i:3;--xlr:#0a66c2;">
+                <a href=" #"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </li>
+            <li style="--i:4;--xlr:#c32aa3;">
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li style="--i:5;--xlr:#dd4b39;">
+                <a href="#"><ion-icon name="mail"></ion-icon></a>
+            </li>
+            <!------------------------------------------------------------------------------------------------------------------------------------------->
+            <!------------------------------------------------------------------------------------------------------------------------------------------->
+    </main>
+    <!------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--                                                      FOOTER                                                                           -->
+    <!------------------------------------------------------------------------------------------------------------------------------------------->
+    <footer>
+        <div class="contenedor-footer">
+            <div class="barra"></div>
+            <div class="footer-content">
+                <div class="left">
+                    <div class="newsletter">
+                        <h2 data-section="footer" data-value="subscribeteNewsletter">Subscribite al Newsletter</h2>
+                        <form id="form-newsletter" action="https://formspree.io/f/xbjvepqy" method="POST">
+                            <input required id="inputNewsletter" class="input-newsletter" type="text" name="mail"
+                                placeholder="Tumail@gmail.com">
+                            <button class="boton-newsletter" id="botonEnviarNewsletter"
+                                type="button" data-section="footer" data-value="botonNewsletter">SUBSCRIBIRME</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="rigth">
+                    <h2 data-section="footer" data-value="titulo">Porque deberias subscribirte?</h2>
+                    <p data-section="footer" data-value="parrafo">
+                        ¡Descubre un rincón exclusivo de conocimiento y creatividad! Subscríbete a mi newsletter y sé
+                        parte de una comunidad que valora el aprendizaje auténtico. Aquí, compartiré contigo no solo
+                        tips de programación y estrategias de marketing, sino también mi genuina pasión por aprender y
+                        crecer. Obtén acceso privilegiado a consejos valiosos, experiencias enriquecedoras y un flujo
+                        constante de inspiración directamente en tu bandeja de entrada. ¡Únete ahora para explorar juntos el emocionante mundo del aprendizaje continuo y
+                        la comunidad vibrante que estamos construyendo!</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="mail"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <small>© Leandro Bellone <span id="year"></span><small data-section="footer" data-value="derechos">, Todos los derechos reserbados</small></small>
+            </div>
+        </div>
+    </footer>
+    <!------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--                                                      SCRIPTS                                                                          -->
+    <!------------------------------------------------------------------------------------------------------------------------------------------->
+    <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./js/animacion-toggle.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/rotar-cubos.js"></script>
+    <script src="./js/fondo-matrix.js"></script>
+    <script src="./js/contador-caracteres.js"></script>
+    <script src="./js/funcionamiento-reloj.js"></script>
+    <script src="./js/boton-formulario-contacto.js"></script>
+    <script src="./js/boton-desplazable.js"></script>
+    <script src="./js/audio-boton-proyectos.js"></script>
+    <script src="./js/animacion-cards-servicios.js"></script>
+    <script src="./js/boton-formulario-newsletter.js"></script>
+    <script src="./js/idioma.js"></script>
+</body>
+
+</html>

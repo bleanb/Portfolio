@@ -1,0 +1,49 @@
+{
+    "en": {
+        
+        "menu": {
+            "inicio": "Start",
+            "servicios": "Services",
+            "contactame": "Contact me",
+            "proyectos": "Projects",
+            "idiomas": "Languages"
+        },
+
+        "inicio": {
+            "parrafo": "Hi! I'm a passionate web creator with a unique flair.\nMy ability to fuse creative design with cutting-edge technology brings to life challenging online\nexperiences, creating websites that not only deliver but\nalso inspire. Find out how I can take your online presence to the next level."
+        },
+        
+        "desarrolloWeb": {
+                "titulo": "Web Development",
+                "contenido": "From intuitive design to flawless functionality, my approach\nto web development elevates your online presence to generate impact and tangible results.",
+                "boton": "READ MORE"
+            },
+
+        "edicionVideo": {
+                "titulo": "Video Editing",
+                "contenido": "Specializing in short videos for social media, each clip becomes a\nmasterpiece that captivates your audience. From dynamic pacing to immersive storytelling,\nevery detail is fine-tuned to maximize impact.",
+                "boton": "READ MORE"
+            },
+
+        "boosterRedes": {
+                "titulo": "Booster Social Networks",
+                "contenido": "Add a website and video editing, and this dynamic fusion is the formula for\nexplosive growth on social media. From\nattracting visitors with an immersive design to retaining them with irresistible videos.",
+                "boton": "READ MORE"
+            },
+        
+        "contactame": {
+            "titulo": "Contact me",
+            "contadorCaracteres": "250",
+            "BotonEnviar": "Send",
+            "parrafoBotonDesplazable": "I will contact you in 5 minutes, take the time. 😉 ->"
+        },
+
+        "footer": {
+            "subscribeteNewsletter": "Subscribe to the newsletter",
+            "botonNewsletter": "Subscribe",
+            "titulo":"Why should you subscribe?",
+            "parrafo": "Discover an exclusive corner of knowledge and creativity! Subscribe to my newsletter and be\npart of a community that values authentic learning. Here, I will share with you not only\nprogramming tips and marketing strategies, but also my genuine passion for learning and\ngrowing. Get privileged access to valuable tips, enriching experiences and a constant flow\nof inspiration straight to your inbox - join now to explore together the exciting world of continuous\nlearning and the vibrant community we're building!",
+            "derechos": ", All rights reserved"
+        }
+    }
+}

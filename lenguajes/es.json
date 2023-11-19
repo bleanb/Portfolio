@@ -1,0 +1,49 @@
+{
+    "es": {
+        
+        "menu": {
+            "inicio": "Inicio",
+            "servicios": "Servicios",
+            "contactame": "Contáctame",
+            "proyectos": "Proyectos",
+            "idiomas": "Idiomas"
+        },
+
+        "inicio": {
+            "parrafo": "¡Hola! Soy un apasionado creador web con un toque único.\nMi habilidad para fusionar diseño creativo con tecnología vanguardista da vida a experiencias online\ndesafíos, creando sitios web que no solo cumplen sino\nque también inspiran. Descubre cómo puedo llevar tu presencia online al siguiente nivel."
+        },
+
+        "desarrolloWeb": {
+                "titulo": "Desarrollo Web",
+                "contenido": "Desde el diseño intuitivo hasta la funcionalidad impecable, mi enfoque en el\ndesarrollo web eleva tu presencia online para generar impacto y resultados tangibles.",
+                "boton": "MÁS INFO"
+        },
+
+        "edicionVideo": {
+                "titulo": "Edición de Video",
+                "contenido": "Especializado en videos cortos para redes sociales, cada clip se convierte en una obra\nmaestra que cautiva a tu audiencia. Desde el ritmo dinámico hasta la narrativa envolvente,\ncada detalle se ajusta para maximizar el impacto.",
+                "boton": "MÁS INFO"
+        },
+
+        "boosterRedes": {
+                "titulo": "Booster Redes",
+                "contenido": "Suma una pagina web y la edicion de videos, esta fusión dinámica es la fórmula para un\ncrecimiento explosivo en las redes sociales. Desde\natraer visitantes con un diseño envolvente hasta retenerlos con videos irresistibles.",
+                "boton": "MÁS INFO"
+        },
+
+        "contactame": {
+            "titulo": "Contacto",
+            "contadorCaracteres": "250",
+            "BotonEnviar": "Enviar",
+            "parrafoBotonDesplazable": "Me contacto en 5 min, tomame el tiempo 😉 ->"
+        },
+
+        "footer": {
+            "subscribeteNewsletter": "Subscríbete al Newsletter",
+            "botonNewsletter": "Subscribirme",
+            "titulo":"Porque deberias subscribirte?",
+            "parrafo": "¡Descubre un rincón exclusivo de conocimiento y creatividad! Subscríbete a mi newsletter y sé\nparte de una comunidad que valora el aprendizaje auténtico. Aquí, compartiré contigo no solo\ntips de programación y estrategias de marketing, sino también mi genuina pasión por aprender y\ncrecer. Obtén acceso privilegiado a consejos valiosos, experiencias enriquecedoras y un flujo\nconstante de inspiración directamente en tu bandeja de entrada. ¡Únete ahora para explorar juntos el emocionante mundo del aprendizaje continuo y\nla comunidad vibrante que estamos construyendo!",
+            "derechos": ", Todos los derechos reserbados"
+        }
+    }
+}
