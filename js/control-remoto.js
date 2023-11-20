@@ -22,11 +22,13 @@ botonPower.onclick = function () {
             fadeOut(videoProyecto,1000);
             videoProyecto.pause();
             videoProyecto.style.zIndex = '-10';
+            videoProyecto.currentTime = 0;
         }
         if(videoProyecto2.style.opacity == 1){
             fadeOut(videoProyecto2,1000);
             videoProyecto2.pause();
             videoProyecto2.style.zIndex = '-10';
+            videoProyecto2.currentTime = 0;
         }
     }
     retraso3(

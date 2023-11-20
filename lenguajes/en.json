@@ -38,6 +38,10 @@
             "parrafoBotonDesplazable": "I will contact you in 5 minutes, take the time. 😉 ->"
         },
 
+        "proyecto":{
+            "luz":"Turn the lights on"
+        },
+
         "footer": {
             "subscribeteNewsletter": "Subscribe to the newsletter",
             "botonNewsletter": "Subscribe",

@@ -3,13 +3,14 @@ const body = document.getElementById('proyectos');
 const audio = document.getElementById('audio-boton-luces');
 const tv = document.getElementById('contenedor-proyectos');
 const controlRemoto = document.getElementById('control-remoto');
-
+const textoLuz = document.getElementById('texto-luz');
 
 boton.onclick = function () {
     body.classList.toggle('on');
     audio.play();
 
     if (body.classList.contains('on')) {
+        textoLuz.style.zIndex = '-100';
         fadeIn(tv, 1000);
         fadeIn(controlRemoto, 1000);
         controlRemoto.style.display = 'flex';
@@ -18,6 +19,7 @@ boton.onclick = function () {
         tv.style.zIndex = '9';
         tv.style.animation = 'agrandar 1s linear forwards';
     } else {
+        textoLuz.style.zIndex = '1';
         fadeOut(tv, 1000);
         fadeOut(controlRemoto, 1000);
         controlRemoto.style.display = 'none';

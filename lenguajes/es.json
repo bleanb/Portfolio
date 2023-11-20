@@ -38,6 +38,11 @@
             "parrafoBotonDesplazable": "Me contacto en 5 min, tomame el tiempo 😉 ->"
         },
 
+        "proyecto":{
+            "luz":"Prendé la luz"
+        },
+
+
         "footer": {
             "subscribeteNewsletter": "Subscríbete al Newsletter",
             "botonNewsletter": "Subscribirme",
