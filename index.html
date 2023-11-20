@@ -250,15 +250,15 @@
             <audio id="audio-boton-luces" src="./assets/sound/click.mp3" autostart="false"></audio>
 
             <div class="contenedor-proyectos" id="contenedor-proyectos">
-                <div class="pantalla"></div>
-                <small>SONY</small>
+                <div class="pantalla"><video id="video-proyectos" src="./assets/video/Portfolio.mp4" controls></video><video id="video-proyectos2" src="./assets/video/Portfolio.mp4" controls></video></div>
+                <small id="led-encendido">SONY</small>
             </div>
 
-            <div class="control-remoto">
-                <div class="boton-power"><ion-icon name="power-outline"></ion-icon></div>
+            <div id="control-remoto" class="control-remoto">
+                <div id="boton-power" class="boton-power"><ion-icon name="power-outline"></ion-icon></div>
                 <div class="control-desplazamiento">
-                    <div class="boton-left"><ion-icon name="chevron-back-outline"></ion-icon></div>
-                    <div class="boton-right"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                    <div id="boton-left" class="boton-left"><ion-icon name="chevron-back-outline"></ion-icon></div>
+                    <div id="boton-right" class="boton-right"><ion-icon name="chevron-forward-outline"></ion-icon></div>
                 </div>
             </div>
 
@@ -346,10 +346,11 @@
     <script src="./js/funcionamiento-reloj.js"></script>
     <script src="./js/boton-formulario-contacto.js"></script>
     <script src="./js/boton-desplazable.js"></script>
-    <script src="./js/audio-boton-proyectos.js"></script>
+    <script src="./js/boton-proyectos.js"></script>
     <script src="./js/animacion-cards-servicios.js"></script>
     <script src="./js/boton-formulario-newsletter.js"></script>
     <script src="./js/idioma.js"></script>
+    <script src="./js/control-remoto.js"></script>
 </body>
 
 </html>
